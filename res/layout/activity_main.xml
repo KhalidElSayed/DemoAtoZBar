@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="60dip"
+        android:layout_height="60dip"
+        android:layout_centerInParent="true"
+        android:background="#22568971"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="35dip" />
+
+    <com.michael.component.atoz.AtoZLetterBar
+        android:id="@+id/selectbar"
+        android:layout_width="30dip"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:background="#7fc2e9" />
+
+</RelativeLayout>
